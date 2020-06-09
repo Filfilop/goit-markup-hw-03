@@ -1,0 +1,497 @@
+:root {
+  --title-coor: #212121;
+}
+.body {
+  background-color: #ffffff;
+  color: #757575;
+}
+
+/* Top Line */
+.header-style {
+}
+/* Логотип верхний */
+.logo-web-studio-header {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
+/* Логотип нижний */
+.logo-web-studio-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+}
+.logo-Web {
+  color: #2196f3;
+}
+.logo-Studio {
+  color: black;
+}
+.logo-Studio-white {
+  color: #ffffff;
+}
+.logo-Studio-black {
+  color: #000000;
+}
+/* верхняя навигация */
+.head-nav {
+  list-style: none;
+}
+/* студия */
+.head-nav-stydu {
+  color: var(--title-coor);
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+/* потрфолио */
+.head-nav-portfolio {
+  color: var(--title-coor);
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+/* контакты */
+.head-nav-contact {
+  color: var(--title-coor);
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.head-nav-stydu:focus,
+.head-nav-stydu:hover {
+  color: #2196f3;
+}
+.head-nav-portfolio:focus,
+.head-nav-portfolio:hover {
+  color: #2196f3;
+}
+.head-nav-contact:hover,
+.head-nav-contact:focus {
+  color: #2196f3;
+}
+/* телефон */
+.telephone {
+  text-decoration: none;
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+/* почта */
+.mail {
+  text-decoration: none;
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.telephone:hover {
+  color: #2196f3;
+}
+.mail:hover {
+  color: #2196f3;
+}
+/* линия */
+.line {
+}
+/* Первая секция */
+.section-one {
+}
+/* основная картинка*/
+.section-one-img {
+}
+/* картинка тень */
+.section-one-img-ten {
+}
+/* Основной текст */
+.section-one-text {
+  color: #b02626;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* or 136% */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* ссылка заказ */
+.section-one-zakaz {
+  color: #b02626;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+/* Преимущества */
+.section-two {
+}
+/* внимание */
+.section-two-detal {
+  list-style: none;
+}
+.section-two-detal-img {
+}
+.section-two-zag {
+  color: var(--title-coor);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.section-two-text {
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+}
+/* Пунктуальность */
+.section-two-puntual {
+  list-style: none;
+}
+.section-two-puntual-img {
+}
+/*  Планирование */
+.section-two-plan {
+  list-style: none;
+}
+.section-two-plan-img {
+}
+/* Технологии */
+.section-two-tehno {
+  list-style: none;
+}
+.section-two-tehno-img {
+}
+/* Чем мы занимаемся */
+.sectione-title {
+  color: var(--title-coor);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* Десктопные приложения */
+.section-three-desctop {
+  list-style: none;
+}
+.section-three-desctop-img {
+}
+.section-three-text {
+  color: #6a1f1f;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/* Мобильные приложения */
+.section-three-mobolapp {
+  list-style: none;
+}
+.section-three-mobolapp-img {
+}
+/* Дизайнерские решения */
+.section-three-dizain {
+  list-style: none;
+}
+.section-three-dizain-img {
+}
+/* Наша команда */
+.section-four {
+  background: #f5f4fa;
+}
+
+.section-four-oll {
+  list-style: none;
+}
+.section-four-name {
+  color: var(--title-coor);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.section-four-work {
+  color: #757575;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* John Smith */
+.section-four-john-smith {
+}
+.section-four-john-smith-img {
+}
+/* Marta Stewart */
+.section-four-marta-stewart {
+}
+.section-four-marta-stewart-img {
+}
+/* Robert Jakis */
+.section-four-robert-jakis {
+}
+.section-four-robert-jakis-img {
+}
+/* Martin Doe */
+.section-four-martin-doe {
+}
+.section-four-martin-doe-img {
+}
+/* ПОДВАЛ */
+.footer {
+  background: #2f303a;
+}
+.address {
+}
+.address-text {
+  color: #ffffff;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+}
+.address-mail {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-telephone {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-social {
+}
+.footer-social-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-social-contact {
+  list-style: none;
+}
+
+.footer-e-mail-nput {
+}
+.footer-e-mail-nput-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer-ckick {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.footer-input {
+  background-color: #2f303a;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.fa-paper-plane {
+  color: #ffffff;
+}
+.line-footer {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.text-under-line {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  /* or 200% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.4);
+}
+/* ПоРТФОЛИО */
+/* меню */
+.button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: #f5f4fa;
+  color: var(--title-coor);
+}
+.button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.porfolio-section {
+}
+.porfolio-section-meny {
+  list-style: none;
+}
+/* скрытый заголовок  */
+.visibility-hidden {
+  visibility: hidden;
+}
+/* основные картинки */
+.porfolio-section-two {
+}
+.porfolio-section-two-oll {
+  list-style: none;
+}
+.porfolio-section-two-text-two {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  /* or 156% */
+  letter-spacing: 0.03em;
+
+  color: #6d0b0b;
+}
+.porfolio-section-two-title {
+  color: var(--title-coor);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+}
+.porfolio-section-two-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* технокряк */
+.porfolio-section-two-ollblock-tehno {
+}
+.porfolio-section-two-tehno-img {
+}
+
+/* Постер */
+.porfolio-section-two-ollblock-poster {
+}
+.porfolio-section-two-poster-img {
+}
+/* ресторан */
+.porfolio-section-two-ollblock-restoran {
+}
+.porfolio-section-two-restoran-img {
+}
+/* проект прайм */
+.porfolio-section-two-ollblock-prime {
+}
+.porfolio-section-two-prime-img {
+}
+/* проект вокс */
+.porfolio-section-two-ollblock-box {
+}
+.porfolio-section-two-box-img {
+}
+/* inspiration */
+.porfolio-section-two-ollblock-inspiration {
+}
+.porfolio-section-two-inspiration-img {
+}
+/* издание */
+.porfolio-section-two-ollblock-izdanie {
+}
+.porfolio-section-two-izdanie-img {
+}
+/* проект лаб */
+.porfolio-section-two-ollblock-lab {
+}
+.porfolio-section-two-lab-img {
+}
+/*  growing */
+.porfolio-section-two-ollblock-growing {
+}
+.porfolio-section-two-growing-img {
+}
