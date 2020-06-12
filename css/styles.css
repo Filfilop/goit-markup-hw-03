@@ -564,6 +564,7 @@ html {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  padding-left: 0px;
 }
 .porfolio-section-two-ollblock-tehno:nth-child(3n) {
   margin-right: 0;
@@ -602,8 +603,8 @@ html {
 /* технокряк */
 .porfolio-section-two-ollblock-tehno {
   width: 370px;
-  margin-right: 25px;
-  margin-bottom: 25px;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 .porfolio-section-two-tehno-img {
 }
