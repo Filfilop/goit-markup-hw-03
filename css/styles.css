@@ -269,7 +269,7 @@ html {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* or 171% */
+
   letter-spacing: 0.03em;
 }
 /* Пунктуальность */
@@ -306,6 +306,7 @@ html {
 }
 .section-three-block {
   display: flex;
+  padding: 0px;
 }
 .section-three-block li {
   margin-left: 30px;
