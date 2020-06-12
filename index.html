@@ -23,27 +23,41 @@
   <body class="body">
     <!--шапка-->
     <header class="header-style">
-      <nav>
-        <a href="/">
-          <p class="logo-web-studio-header">
-            <span class="logo-Web">Web</span>
-            <span class="logo-Studio-black">Studio</span>
-          </p>
-        </a>
-        <ul class="head-nav">
-          <li>
-            <a class="head-nav-stydu" href="./index.html">Студия</a>
-          </li>
-          <li>
-            <a class="head-nav-portfolio" href="./portfolio.html">Портфолио </a>
-          </li>
-          <li>
-            <a class="head-nav-contact" href="#">Контакты</a>
-          </li>
-        </ul>
-        <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="telephone" href="tel:+380961111111">+380961111111</a>
-        <hr class="line" align="center" />
+      <nav class="header-style-nav">
+        <div class="conteiner-for-flex">
+          <a href="/">
+            <p class="logo-web-studio-header">
+              <span class="logo-Web">Web</span>
+              <span class="logo-Studio-black">Studio</span>
+            </p>
+          </a>
+
+          <ul class="head-nav head-nav-navi">
+            <li class="head-nav-navigatio">
+              <a class="head-nav-stydu" href="./index.html">Студия</a>
+            </li>
+            <li class="head-nav-navigatio">
+              <a class="head-nav-portfolio" href="./portfolio.html"
+                >Портфолио
+              </a>
+            </li>
+            <li class="head-nav-navigatio">
+              <a class="head-nav-contact" href="#">Контакты</a>
+            </li>
+          </ul>
+          <div class="head-nav-contact-head-div">
+            <ul class="head-nav-contact-head">
+              <li>
+                <a class="mail" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="telephone" href="tel:+380961111111">+380961111111</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
 
@@ -56,15 +70,19 @@
       />
       <img class="section-one-img-ten" src="#" alt="тень" />
       <h1 class="section-one-text">ЭФФЕКТИВНЫЕ РЕШЕНИЕ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-      <a class="section-one-zakaz" href="#">Заказать услугу</a>
+      <ul>
+        <li class="section-one-zakaz-li">
+          <a class="section-one-zakaz" href="#">Заказать услугу</a>
+        </li>
+      </ul>
     </section>
 
     <!--Преимущества-->
     <section class="section-two">
-      <ul>
+      <ul class="section-two-block">
         <li class="section-two-detal">
           <a class="section-two-detal-img" href="#"
-            ><img src="./images/1.jpg" alt="картинка"
+            ><img src="./images/antenna.svg" alt="картинка"
           /></a>
           <h2 class="section-two-zag">внимание к деталям</h2>
           <p class="section-two-text">
@@ -75,7 +93,7 @@
 
         <li class="section-two-puntual">
           <a class="section-two-puntual-img" href="#"
-            ><img src="./images/1.jpg" alt="картинка"
+            ><img src="./images/clock.svg" alt="картинка"
           /></a>
           <h2 class="section-two-zag">пунктуальность</h2>
           <p class="section-two-text">
@@ -86,7 +104,7 @@
 
         <li class="section-two-plan">
           <a class="section-two-plan-img" href="#"
-            ><img src="./images/1.jpg" alt="картинка"
+            ><img src="./images/diagram.svg" alt="картинка"
           /></a>
           <h2 class="section-two-zag">планирование</h2>
           <p class="section-two-text">
@@ -97,7 +115,7 @@
 
         <li class="section-two-tehno">
           <a class="section-two-tehno-img" href="#"
-            ><img src="./images/1.jpg" alt="картинка"
+            ><img src="./images/astronaut.svg" alt="картинка"
           /></a>
           <h2 class="section-two-zag">современные технологии</h2>
           <p class="section-two-text">
@@ -111,7 +129,7 @@
     <!--Чем занимаемся-->
     <section class="section-three">
       <h2 class="sectione-title">ЧЕМ МЫ ЗАНИМАЕМСЯ</h2>
-      <ul>
+      <ul class="section-three-block">
         <li class="section-three-desctop">
           <a href="#">
             <img
@@ -255,46 +273,48 @@
     </section>
 
     <!--Клиенты-->
-    <section>
+    <section class="section-five">
       <h3 class="sectione-title">Постоянные клиенты</h3>
-      <ul>
+      <ul class="post-ckient">
         <li>
-          <a href="#"><img src="./images/1.jpg" alt="Company" /></a>
+          <a href="#"><img src="./images/logo1.svg" alt="Company" /></a>
         </li>
         <li>
-          <a href="#"><img src="./images/1.jpg" alt="Company" /></a>
+          <a href="#"><img src="./images/logo2.svg" alt="Company" /></a>
         </li>
         <li>
-          <a href="#"><img src="./images/1.jpg" alt="Company" /></a>
+          <a href="#"><img src="./images/logo3.svg" alt="Company" /></a>
         </li>
         <li>
-          <a href="#"><img src="./images/1.jpg" alt="Company" /></a>
+          <a href="#"><img src="./images/logo4.svg" alt="Company" /></a>
         </li>
         <li>
-          <a href="#"><img src="./images/1.jpg" alt="Company" /></a>
+          <a href="#"><img src="./images/logo5.svg" alt="Company" /></a>
         </li>
         <li>
-          <a href="#"><img src="./images/1.jpg" alt="Company" /></a>
+          <a href="#"><img src="./images/logo6.svg" alt="Company" /></a>
         </li>
       </ul>
     </section>
 
     <!--ПОДВАЛ-->
     <footer class="footer">
-      <a href="/">
-        <p class="logo-web-studio-footer">
-          <span class="logo-Web">Web</span>
-          <span class="logo-Studio-white">Studio</span>
-        </p>
-      </a>
+      <ul class="footer-logo">
+        <li>
+          <a href="/">
+            <p class="logo-web-studio-footer">
+              <span class="logo-Web">Web</span>
+              <span class="logo-Studio-white">Studio</span>
+            </p>
+          </a>
+        </li>
+      </ul>
       <address class="address">
-        <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
-        <a class="address-mail" href="mailto:info@example.com"
-          >info@example.com</a
-        >
-        <a class="address-telephone" href="tel:+380961111111"
-          >+38 096 111 11 11</a
-        >
+        <ul class="address-podval">
+          <li><p class="address-text">г. Киев, пр-т Леси Украинки, 26</p></li>
+          <li><a class="address-mail" href="mailto:info@example.com">info@example.com</a></li> 
+          <li><a class="address-telephone" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>  
       </address>
       <div class="footer-social">
         <h3 class="footer-social-name">присоединяйтесь</h3>
