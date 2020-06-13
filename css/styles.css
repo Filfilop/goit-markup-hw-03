@@ -1,13 +1,15 @@
-:root {
-  --title-coor: #212121;
-}
 html {
   box-sizing: content-box;
 }
 *::after,
 *::before {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
+
+:root {
+  --title-coor: #212121;
+}
+
 .body {
   background-color: #ffffff;
   color: #757575;
@@ -192,7 +194,7 @@ html {
 .section-one {
   max-width: 1600px;
   height: 600px;
-  background: url(./images/rfff.jpg);
+  background: url(/images/rfff.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
