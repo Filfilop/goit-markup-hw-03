@@ -568,6 +568,7 @@ ul {
 }
 /* скрытый заголовок  */
 .visibility-hidden {
+  display: none;
   visibility: hidden;
 }
 /* основные картинки */
