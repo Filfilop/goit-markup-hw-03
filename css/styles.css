@@ -501,7 +501,7 @@ ul {
 }
 
 .footer-e-mail-nput {
-  margin-left: 94px;
+  margin-left: auto;
 }
 .footer-e-mail-nput-name {
   font-family: Roboto;
@@ -560,7 +560,7 @@ ul {
 .porfolio-section-meny {
   list-style: none;
   display: flex;
-  margin-left: 535px;
+  justify-content: center;
 }
 .porfolio-section-meny li {
   background-color: #757575;
