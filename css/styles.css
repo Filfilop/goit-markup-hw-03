@@ -422,7 +422,7 @@ ul {
 .post-ckient {
   display: flex;
   list-style: none;
-  margin-left: 215px;
+  justify-content: space-between;
 }
 .section-five {
 }
