@@ -64,6 +64,7 @@ ul {
   font-weight: 700;
   font-size: 22px;
   line-height: 1.18;
+  margin-top: 0;
 }
 .logo-Web {
   color: #2196f3;
@@ -444,7 +445,6 @@ ul {
 }
 .address-podval {
   list-style: none;
-  margin-left: 215px;
 }
 .address-text {
   color: #ffffff;
