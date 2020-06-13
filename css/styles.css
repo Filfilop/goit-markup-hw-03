@@ -317,7 +317,7 @@ ul {
   display: flex;
   padding: 0px;
 }
-.section-three-block li {
+.section-three-block li:not(:first-child) {
   margin-left: 30px;
 }
 /* Десктопные приложения */
