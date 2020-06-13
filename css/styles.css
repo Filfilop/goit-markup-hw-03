@@ -23,6 +23,10 @@ ul {
   margin: 0;
 }
 
+.section-padding {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .container {
   width: 1200px;
   margin-top: 0px;
