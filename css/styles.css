@@ -121,7 +121,7 @@ html {
 .head-nav-contact-head {
   margin-left: auto;
 }
-.head-nav-contact-head li {
+.head-nav-contact-head li:not(:last-child) {
   margin-right: 30px;
 }
 
