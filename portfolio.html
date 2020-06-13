@@ -23,9 +23,8 @@
   <body class="body">
     <!--шапка-->
     <header class="header-style">
-      <div class="container">
-      <nav class="header-style-nav">
-        <div class="conteiner-for-flex">
+      <nav>
+        <div class="conteiner-for-flex container">
           <a href="/">
             <p class="logo-web-studio-header">
               <span class="logo-Web">Web</span>
@@ -37,20 +36,17 @@
               <a class="head-nav-stydu" href="./index.html">Студия</a>
             </li>
             <li class="head-nav-navigatio">
-              <a class="head-nav-portfolio" href="./portfolio.html"
-                >Портфолио
+              <a class="head-nav-portfolio" href="./portfolio.html">Портфолио
               </a>
             </li>
             <li class="head-nav-navigatio">
               <a class="head-nav-contact" href="#">Контакты</a>
             </li>
           </ul>
-          <div>
+          <div class="head-nav-contact-head-div">
             <ul class="head-nav-contact-head">
               <li>
-                <a class="mail" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
+                <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
               </li>
               <li>
                 <a class="telephone" href="tel:+380961111111">+380961111111</a>
@@ -58,8 +54,8 @@
             </ul>
           </div>
         </div>
+        </div>
       </nav>
-      </div>
     </header>
 
     <!--менюшка-->
@@ -84,11 +80,12 @@
           <a class="button" href="#">Маркетинг</a>
         </li>
       </ul>
+      </div>
     </section>
 
     <!--основные квадраты-->
     <section class="porfolio-section-two">
-      <div class="container-img">
+      <div class="container-img container">
       <ul class="porfolio-section-two-oll">
         <li class="porfolio-section-two-ollblock-tehno">
           <a href="#">
@@ -281,8 +278,9 @@
     </section>
 
     <!--ПОДВАЛ-->
-    <footer class="footer">
-      <div class="container">
+<footer class="footer">
+  <div class="container tem-container">
+    <div>
       <a href="/">
         <p class="logo-web-studio-footer">
           <span class="logo-Web">Web</span>
@@ -290,43 +288,43 @@
         </p>
       </a>
       <address class="address">
-        <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
-        <a class="address-mail" href="mailto:info@example.com"
-          >info@example.com</a
-        >
-        <a class="address-telephone" href="tel:+380961111111"
-          >+38 096 111 11 11</a
-        >
-      </address>
-      <div class="footer-social">
-        <h3 class="footer-social-name">присоединяйтесь</h3>
-        <ul class="footer-social-contact">
+        <ul class="address-podval">
           <li>
-            <a href="#" aria-label="Ссылка на инстаграм">Инстаграм</a>
+            <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
           </li>
-          <li>
-            <a href="#" aria-label="Ссылка на твиттер">Твиттер</a>
-          </li>
-          <li>
-            <a href="#" aria-label="Сслыка на фейсбук">Фейсбук</a>
-          </li>
-          <li>
-            <a href="#" aria-label="Ссылка на линкедин">Линкедин</a>
-          </li>
+          <li><a class="address-mail" href="mailto:info@example.com">info@example.com</a></li>
+          <li><a class="address-telephone" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
-      </div>
-      <div class="footer-e-mail-nput">
-        <p class="footer-e-mail-nput-name">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
-        <form>
-          <input class="footer-input" type="text" />
-          <button class="footer-ckick">
-            подписаться<i class="fas fa-paper-plane"></i>
-          </button>
-        </form>
-      </div>
+      </address>
     </div>
-      <hr class="line-footer" align="center" />
-      <p class="text-under-line">2020 | Developed by GoIT Students</p>
-    </footer>
+    <div class="footer-social">
+      <h3 class="footer-social-name">присоединяйтесь</h3>
+      <ul class="footer-social-contact">
+        <li>
+          <a href="#" aria-label="Ссылка на инстаграм">Инстаграм</a>
+        </li>
+        <li>
+          <a href="#" aria-label="Ссылка на твиттер">Твиттер</a>
+        </li>
+        <li>
+          <a href="#" aria-label="Сслыка на фейсбук">Фейсбук</a>
+        </li>
+        <li>
+          <a href="#" aria-label="Ссылка на линкедин">Линкедин</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-e-mail-nput">
+      <p class="footer-e-mail-nput-name">ПОДПИШИТЕСЬ НА РАССЫЛКУ</p>
+      <form>
+        <input class="footer-input" type="text" placeholder="E-mail">
+        <button class="footer-ckick">
+          подписаться<i class="fas fa-paper-plane" aria-hidden="true"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+  <p class="text-under-line">2020 | Developed by GoIT Students</p>
+</footer>ы
   </body>
 </html>
