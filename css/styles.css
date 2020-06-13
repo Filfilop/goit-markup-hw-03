@@ -243,6 +243,7 @@ html {
 
 .section-two-block {
   display: flex;
+  margin: 0;
 }
 
 /* внимание */
