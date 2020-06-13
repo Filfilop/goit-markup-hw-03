@@ -561,6 +561,7 @@ ul {
   list-style: none;
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 .porfolio-section-meny li {
   background-color: #757575;
