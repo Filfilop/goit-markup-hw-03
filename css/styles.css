@@ -4,22 +4,20 @@
 html {
   box-sizing: content-box;
 }
-
+*::after,
+*::before {
+  box-sizing: inherit;
+}
 .body {
   background-color: #ffffff;
   color: #757575;
 }
 
 .body {
-  width: 1600px;
-  height: 1880px;
   margin-left: auto;
   margin-right: auto;
 }
-*::after,
-*::before {
-  box-sizing: inherit;
-}
+
 .container {
   width: 1200px;
   margin-top: 0px;
@@ -33,9 +31,6 @@ html {
 }
 /* Top Line */
 .header-style {
-}
-
-.header-style-nav {
 }
 
 .conteiner-for-flex {
@@ -82,13 +77,11 @@ html {
   margin-left: 85px;
 }
 
-.head-nav li {
-}
 .head-nav-navigatio {
   margin-right: 40px;
   margin-left: auto;
 }
-.head-nav-navigati :not(:last-child) {
+.head-nav-navigatio:not(:last-child) {
   margin-right: 0;
 }
 .head-nav-navigatio {
@@ -120,16 +113,18 @@ html {
   letter-spacing: 0.02em;
 }
 /* контакты */
+.head-nav-contact-head-div {
+  margin-left: auto;
+}
 .head-nav-contact-head {
   list-style: none;
   display: flex;
-  margin: 0;
   padding: 0;
 }
 .head-nav-contact-head {
   padding-top: 32px;
   padding-bottom: 32px;
-  margin-left: 200px;
+  margin-left: auto;
 }
 .head-nav-contact-head li {
   margin-right: 30px;
@@ -189,9 +184,7 @@ html {
 .mail:hover {
   color: #2196f3;
 }
-/* линия */
-.line {
-}
+
 /* Первая секция */
 .section-one {
 }
@@ -199,14 +192,11 @@ html {
 .section-one-img {
   width: auto;
   height: auto;
-  position: relative;
 }
 
 .section-one-img {
 }
-/* картинка тень */
-.section-one-img-ten {
-}
+
 /* Основной текст */
 .section-one-text {
   color: #ffffff;
