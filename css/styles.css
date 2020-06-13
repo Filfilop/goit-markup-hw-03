@@ -34,14 +34,14 @@ ul {
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-
   padding-right: 15px;
-
   padding-left: 15px;
 }
 .tem-container {
   display: flex;
   align-items: baseline;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 28px;
 }
 /* Top Line */
 .header-style {
