@@ -1,11 +1,11 @@
 html {
-  box-sizing: content-box;
-}
-*::after,
-*::before {
   box-sizing: border-box;
 }
-
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
 :root {
   --title-coor: #212121;
 }
