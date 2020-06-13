@@ -246,6 +246,7 @@ ul {
 }
 /* Преимущества */
 .section-two {
+  padding-bottom: 0px;
 }
 
 .section-two-block {
