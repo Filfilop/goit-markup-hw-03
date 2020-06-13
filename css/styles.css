@@ -194,7 +194,7 @@ html {
 .section-one {
   max-width: 1600px;
   height: 600px;
-  background: url(/images/rfff.jpg);
+  background: url(../images/rfff.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
