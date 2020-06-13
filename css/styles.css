@@ -189,7 +189,18 @@ html {
   height: auto;
 }
 
-.section-one-img {
+.section-one {
+  max-width: 1600px;
+  height: 600px;
+  background: url(/images/rfff.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
 }
 
 /* Основной текст */
