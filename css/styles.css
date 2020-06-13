@@ -35,6 +35,7 @@ html {
 
 .conteiner-for-flex {
   display: flex;
+  align-items: center;
 }
 /* Логотип верхний */
 .header-style-nav-logo {
@@ -118,8 +119,6 @@ html {
   padding: 0;
 }
 .head-nav-contact-head {
-  padding-top: 32px;
-  padding-bottom: 32px;
   margin-left: auto;
 }
 .head-nav-contact-head li {
