@@ -77,12 +77,10 @@ html {
   margin-left: 85px;
 }
 
-.head-nav-navigatio {
-  margin-right: 40px;
-  margin-left: auto;
+
 }
 .head-nav-navigatio:not(:last-child) {
-  margin-right: 0;
+  margin-right: 50px;
 }
 .head-nav-navigatio {
   display: block;
